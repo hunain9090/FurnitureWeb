@@ -56,8 +56,8 @@ function WebLayout() {
       arial-label="Furni navigation bar"
     >
       <div className="container">
-     <Link className="nav-link" to="/"> Furni<span>.</span></Link>
-        
+         <Link className="nav-link" to="/"> Furni<span>.</span></Link>
+       
 
         <button
           className="navbar-toggler"
@@ -74,8 +74,8 @@ function WebLayout() {
         <div className="collapse navbar-collapse" id="navbarsFurni">
           <ul className="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">Home</Link>
-            
+              
+               <Link className="nav-link" to="/">Home</Link>
             </li>
 
        <li className="nav-item dropdown">
