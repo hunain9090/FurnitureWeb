@@ -56,8 +56,8 @@ function WebLayout() {
       arial-label="Furni navigation bar"
     >
       <div className="container">
-         <Link className="nav-link" to="/"> Furni<span>.</span></Link>
-       
+         <Link className="navbar-brand" to="/"> Furni<span>.</span></Link>
+      
 
         <button
           className="navbar-toggler"
