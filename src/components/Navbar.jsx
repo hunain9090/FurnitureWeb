@@ -1,4 +1,4 @@
-import {Link, Outlet} from "react-router-dom"
+import {Link, Links, Outlet} from "react-router-dom"
 import { jwtDecode } from "jwt-decode";
 import axios from "axios";
 import { useEffect } from "react";
@@ -135,9 +135,10 @@ function WebLayout() {
                   </button>
                 </>
               ) : (
-                <a className="nav-link" href="/login">
-                  <img src="/images/user.svg" />
-                </a>
+                <Link className="nav-link" to="/login">
+                 <img src="/images/user.svg" />
+                </Link>
+               
               )}
             </li>
 
